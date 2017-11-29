@@ -1,0 +1,36 @@
+form {
+  margin: 25px 0;
+  text-align: center;
+}
+form input[type="text"] {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+}
+form input[type="submit"] {
+  padding: 5px 10px;
+  border: 1px solid #aaa;
+  outline: none;
+  color: #000;
+  background-color: #fff;
+}
+form input[type="submit"]:hover {
+  color: #fff;
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+#result {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  
+}
